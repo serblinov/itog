@@ -12,4 +12,11 @@ void ModifiedStringArray(string[] strArray, string[] newStrArray)
         }
     }
 }
-
+void PrintArray(string[] array)
+{
+    for(int i = 0; i < strArray.Length; i++)
+    {
+        Console.Write($"{array[i]}");
+    }
+    Console.WriteLine();
+}
